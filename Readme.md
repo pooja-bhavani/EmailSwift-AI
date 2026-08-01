@@ -55,4 +55,5 @@ Based on our setup and the success of other builders in the challenge, here is a
 ## Live Demo
 Check out the live web app here: [Live App](https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/)
 
-## Blog Link: https://builder.aws.com/content/3HJwDmIQ25xw2hn8C5bJXAqv5JV/weekend-annoying-task-challenge-emailswift-ai
+## Blog Link
+Check out the Article here: [Article Link](https://builder.aws.com/content/3HJwDmIQ25xw2hn8C5bJXAqv5JV/weekend-annoying-task-challenge-emailswift-ai)
