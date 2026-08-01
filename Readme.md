@@ -18,5 +18,10 @@ This app runs entirely in the AWS Free Tier using:
 * **AWS Lambda:** Powers the compute and serves the HTML/JS frontend via a public Lambda Function URL.
 * **Amazon Bedrock (Nova Lite):** The generative AI model (`amazon.nova-lite-v1:0`) that reads the email and drafts the perfect professional response.
 
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/3639bd77-05db-40fa-a162-ce2bd22930d9" />
+
 ## Live Demo
 Check out the live web app here: [Live App](https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/)
+
+<img width="1467" height="885" alt="Screenshot 2026-08-01 at 4 48 35 PM" src="https://github.com/user-attachments/assets/fd3ab043-5d8f-42b7-9c31-ea37e58c3e8d" />
+
