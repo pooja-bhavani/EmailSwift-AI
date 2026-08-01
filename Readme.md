@@ -39,8 +39,8 @@ An AWS Account: You need an active Amazon Web Services account. If you have a ne
 - Where: Still in the Lambda Configuration tab, click Permissions, then click the execution Role Name to open the IAM console.
 - How: You must attach an inline JSON policy that grants the bedrock:InvokeModel permission. Without this step, your Python code using boto3 will be blocked from sending the email text to the Bedrock AI model.
 
-### Amazon Nova Lite (amazon.nova-lite-v1:0) 
-It is a generative AI model accessed through Amazon Bedrock. In your EmailSwift AI architecture, it acts as the core "AI Engine" that receives raw input text and intelligently transforms it into structured, professional output.
+## Amazon Bedrock's **Nova Lite** model
+Amazon Nova Lite (amazon.nova-lite-v1:0) is a generative AI model accessed through Amazon Bedrock. In your EmailSwift AI architecture, it acts as the core "AI Engine" that receives raw input text and intelligently transforms it into structured, professional output.
 Based on our setup and the success of other builders in the challenge, here is an overview of its key features and why it is the perfect "sweet spot" model for this project:
 Exceptional at Text Extraction and Formatting: Nova Lite excels at taking messy, unstructured context—like chaotic meeting notes or hasty emails—and extracting the core intent to generate polished summaries, formatted action items, and ready-to-send replies
 .
