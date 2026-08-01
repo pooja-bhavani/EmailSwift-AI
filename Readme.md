@@ -23,5 +23,4 @@ This app runs entirely in the AWS Free Tier using:
 ## Live Demo
 Check out the live web app here: [Live App](https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/)
 
-<img width="1467" height="885" alt="Screenshot 2026-08-01 at 4 48 35 PM" src="https://github.com/user-attachments/assets/fd3ab043-5d8f-42b7-9c31-ea37e58c3e8d" />
 
