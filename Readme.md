@@ -20,6 +20,21 @@ This app runs entirely in the AWS Free Tier using:
 
 <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/3639bd77-05db-40fa-a162-ce2bd22930d9" />
 
+## Prerequisites
+An AWS Account: You need an active Amazon Web Services account. If you have a new account, you can leverage up to $200 in Free Tier credits that cover the services used in this project
+- Amazon Bedrock Access: Access to the amazon.nova-lite-v1:0 model must be enabled in your account
+- AWS Lambda: Used for the serverless compute engine and to host the frontend web interface
+- AWS IAM (Identity and Access Management): To grant your Lambda function the proper security permissions to talk to the AI model.
+
+## How to Create & Configure the Environment
+1. Create the AWS Lambda Function
+Where: In the AWS Console, search for AWS Lambda
+How: Click Create function and choose "Author from scratch". Name it EmailSwiftAI and select Python 3.12 as the runtime.
+
+2. Generate the Public Web URL
+Where: Inside your new Lambda function's Configuration tab
+How: Click Function URL on the left menu and click "Create function URL". Crucially, set the Auth type to NONE. This generates the live, public web address (like the one you deployed: https://wps5a2uf...lambda-url.us-east-1.on.aws) that allows anyone to view your app without needing an AWS login
+
 ## Live Demo
 Check out the live web app here: [Live App](https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/)
 
