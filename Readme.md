@@ -28,12 +28,16 @@ An AWS Account: You need an active Amazon Web Services account. If you have a ne
 
 ## How to Create & Configure the Environment
 1. Create the AWS Lambda Function
-Where: In the AWS Console, search for AWS Lambda
-How: Click Create function and choose "Author from scratch". Name it EmailSwiftAI and select Python 3.12 as the runtime.
+- Where: In the AWS Console, search for AWS Lambda
+- How: Click Create function and choose "Author from scratch". Name it EmailSwiftAI and select Python 3.12 as the runtime.
 
 2. Generate the Public Web URL
-Where: Inside your new Lambda function's Configuration tab
-How: Click Function URL on the left menu and click "Create function URL". Crucially, set the Auth type to NONE. This generates the live, public web address (like the one you deployed: https://wps5a2uf...lambda-url.us-east-1.on.aws) that allows anyone to view your app without needing an AWS login
+- Where: Inside your new Lambda function's Configuration tab
+- How: Click Function URL on the left menu and click "Create function URL". Crucially, set the Auth type to NONE. This generates the live, public web address (like the one you deployed: https://wps5a2uf...lambda-url.us-east-1.on.aws) that allows anyone to view your app without needing an AWS login
+
+3. Grant IAM Security Permissions
+- Where: Still in the Lambda Configuration tab, click Permissions, then click the execution Role Name to open the IAM console.
+- How: You must attach an inline JSON policy that grants the bedrock:InvokeModel permission. Without this step, your Python code using boto3 will be blocked from sending the email text to the Bedrock AI model
 
 ## Live Demo
 Check out the live web app here: [Live App](https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/)
