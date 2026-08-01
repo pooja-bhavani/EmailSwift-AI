@@ -11,4 +11,4 @@ This app runs entirely in the AWS Free Tier using:
 * **Amazon Bedrock (Nova Lite):** The generative AI model (`amazon.nova-lite-v1:0`) that reads the email and drafts the perfect professional response.
 
 ## Live Demo
-Check out the live web app here: https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url
+Check out the live web app here: https://wps5a2uf5ia35yfxvukiji7lz40ekuul.lambda-url.us-east-1.on.aws/ 
